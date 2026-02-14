@@ -12,27 +12,27 @@ const props = defineProps({
   }
 })
 
-const titleText = ref("Front-End Web Developer");
+const titleText = ref("Senior Developer");
 const titleKey = ref(0);
 
 const icons = [
   {
     component: '/smile.gif',
-    name: 'react',
+    name: 'Python',
     class: 'absolute top-0 lg:top-[-100px] left-[100px] sm:left-[180px] lg:left-[100px]',
     width: 50,
     height: 50
   },
   {
     component: '/robot.gif',
-    name: 'vue',
+    name: 'Vue',
     class: 'absolute top-0 lg:top-[-150px] sm:right-[150px] right-0 lg:right-[250px]',
     width: 150,
     height: 150
   },
   {
     component: '/js.gif',
-    name: 'js',
+    name: 'Js',
     class: 'absolute bottom-0 sm:bottom-[-70px] right-0 sm:right-[220px]',
     width: 70,
     height: 70
@@ -59,11 +59,11 @@ onMounted(() => {
   startIconAnimation()
 
   const placeholderTexts = [
-      'Front-End Web Developer',
-      'React Developer',
-      'Javascript Developer',
-      'NextJS Developer',
-      'Vue Developer'
+      'Senior Developer',
+      'React.js',
+      'Javascript',
+      'Python',
+      'Vue3(Quasar2)'
   ];
   let index = 0;
 
@@ -93,7 +93,7 @@ onUnmounted(() => {
     <!--   intro   -->
     <div class="w-full lg:w-[60%] pt-12 lg:pt-0 relative">
 
-      <p class="text-[1.5rem] font-[500] text-disableColor dark:text-darkDisableColor">Hi, I'm Asfak</p>
+      <p class="text-[1.5rem] font-[500] text-disableColor dark:text-darkDisableColor">Hi, I'm Leslie Taffe</p>
 
       <transition name="title-transition">
         <h1
@@ -104,11 +104,11 @@ onUnmounted(() => {
       </transition>
 
       <p class="text-disableColor dark:text-darkDisableColor text-[1rem] mt-2 w-full sm:w-[70%]">
-        I am Asfak Ahmed, a Front-End Web Developer with over three years of experience and the founder of <b>ZenUI Labs</b>, An ecosystem that unifies UI libraries, developer tools, and innovative solutions under one roof. Coding is my passion, and I excel at solving complex problems with creative solutions.
+        A Senior self taughtDeveloper with over six years of experience and the founder of <b>Xamayca Technologies</b>, A Tech start up focused on building new eco friendly technology that allows for new ways to communicate through the use and developement of new technologies. Coding is my passion and I excel at solving complex problems with creative solutions so as a Proud Jamaican I plan to do my part to help uplift the world like so many Jamaicans have done befoer me.
       </p>
 
       <div class="flex flex-col sm:flex-row sm:items-center gap-[15px] mt-8">
-        <a href="https://zcal.co/asfak00/discuss30" target="_blank" :class="styleGuide.buttonFill" class="py-2.5 w-max">
+        <a href="" target="_blank" :class="styleGuide.buttonFill" class="py-2.5 w-max">
           <Icon icon="hugeicons:calendar-03" width="22" height="22"/>
           Schedule a meeting
         </a>
@@ -143,12 +143,12 @@ onUnmounted(() => {
       <!--   experience card   -->
       <div
           class="bg-white dark:bg-slate-900 animation-bounce2 rounded-md py-1 sm:py-2.5 px-4 sm:px-8 absolute shadow-sm bottom-[20px] sm:bottom-[50px] left-[-30px] sm:left-[30px] w-max flex transition-all duration-300 flex-col items-center justify-center">
-        <h6 class="text-[1.2rem] sm:text-[1.8rem] font-[600] text-highlightColor leading-[35px]">2+</h6>
+        <h6 class="text-[1.2rem] sm:text-[1.8rem] font-[600] text-highlightColor leading-[35px]">5+</h6>
         <p class="text-disableColor dark:text-darkDisableColor text-[0.7rem] sm:text-[0.9rem]">Years of experience</p>
       </div>
 
       <img alt="asfak/image"
-           :src="theme === 'light' ? 'https://i.ibb.co.com/hg3ZfKs/profile-picture.png' : 'https://i.ibb.co.com/Q876NqR/dark-picture.png'"
+           :src="theme === 'light' ? 'https://media.licdn.com/dms/image/v2/D5635AQE7A5FQx5ix7w/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1650390890250?e=1771639200&v=beta&t=PbWBA1gVjRGqPWslmehnUygJmi2KBwPjus5Eq7goQiM' : 'https://media.licdn.com/dms/image/v2/D5635AQE7A5FQx5ix7w/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1650390890250?e=1771639200&v=beta&t=PbWBA1gVjRGqPWslmehnUygJmi2KBwPjus5Eq7goQiM'"
            class="w-[450px]"/>
     </div>
   </Layout>

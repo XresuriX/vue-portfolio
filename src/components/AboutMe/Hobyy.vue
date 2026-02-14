@@ -11,16 +11,16 @@
         Sharing knowledge is something I truly enjoy. Creating programming tutorials allows me to help others learn and grow in their coding journey while refining my own understanding.
       </li>
       <li>
-        <b>Photography:</b>
+        <b>Gaming:</b>
         Capturing moments through the lens gives me a creative outlet and helps me appreciate the beauty around me.
       </li>
       <li>
-        <b>Traveling:</b>
-        Exploring new places, meeting people, and experiencing different cultures inspire me and keep life exciting. If you interested to see my traveling photography and videography please connect with me in Facebook or Instagram.
+        <b>3D animation:</b>
+        I love great animated content and see the need for new and diverse stories so I hope to make them
       </li>
       <li>
-        <b>Writing Blogs:</b>
-        Writing blogs allows me to share my thoughts, experiences, and technical insights with a wider audience. It’s a wonderful way to connect with others and contribute to the community.
+        <b>Writing:</b>
+        Writing allows me to share my thoughts, experiences, and technical insights with a wider audience. It’s a wonderful way to connect with others and contribute to the community and culture.
       </li>
     </ul>
 

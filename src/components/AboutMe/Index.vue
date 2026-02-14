@@ -19,7 +19,7 @@ const handleActiveTab = (tab) => {
 
 <template>
   <Layout id="about-me" class="pt-16 lg:pt-8 dark:bg-darkBgColor">
-    <div class="w-max mx-auto flex flex-col items-end">
+    <div class="flex flex-col items-end mx-auto w-max">
       <h4 class="text-[2.2rem] font-[600] text-textColor dark:text-darkTextColor text-center">About Me</h4>
 
       <!--   line   -->
@@ -30,11 +30,12 @@ const handleActiveTab = (tab) => {
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-[0px] lg:gap-[25px] pt-10 lg:pt-14 w-full">
 
       <div>
-        <img alt="asfak/image" src="https://i.ibb.co.com/1Mj9Nwx/asfakahmed.jpg" class="w-full h-[90%] rounded-md object-cover"/>
+        <img alt="asfak/image" src="https://media.licdn.com/dms/image/v2/D5635AQE7A5FQx5ix7w/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1650390890250?e=1771639200&v=beta&t=PbWBA1gVjRGqPWslmehnUygJmi2KBwPjus5Eq7goQiM"
+" class="w-full h-[90%] rounded-md object-cover"/>
       </div>
 
       <div>
-        <div class="w-full grid grid-cols-3 relative rounded-full border dark:border-darkTextColor/40 border-borderColor">
+        <div class="relative grid w-full grid-cols-3 border rounded-full dark:border-darkTextColor/40 border-borderColor">
 
           <div :class="activeTab === 'about_me' ?'translate-x-[2%]' : activeTab === 'education' ? 'translate-x-[100%]' : 'translate-x-[201.4%]'" class="bg-highlightPrimary/10 dark:bg-highlightPrimary/50 absolute h-[90%] sm:h-[85%] rounded-full top-[50%] w-[33%] transform transition-all duration-700 translate-y-[-50%]"></div>
 
@@ -58,15 +59,15 @@ const handleActiveTab = (tab) => {
               ? '-translate-x-full opacity-0'
               : 'translate-x-full opacity-0'"
           >
-            <div v-if="activeTab === 'about_me'" key="about_me" class="pt-6 px-2">
+            <div v-if="activeTab === 'about_me'" key="about_me" class="px-2 pt-6">
               <AboutMe/>
             </div>
 
-            <div v-else-if="activeTab === 'education'" key="education" class="pt-6 px-2">
+            <div v-else-if="activeTab === 'education'" key="education" class="px-2 pt-6">
               <Education/>
             </div>
 
-            <div v-else key="hobby" class="pt-6 px-2">
+            <div v-else key="hobby" class="px-2 pt-6">
               <Hobby/>
             </div>
           </transition>
